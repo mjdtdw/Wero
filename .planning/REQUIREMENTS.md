@@ -85,33 +85,33 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCF-01 | Unmapped | Pending |
-| SCF-02 | Unmapped | Pending |
-| SCF-03 | Unmapped | Pending |
-| SRC-01 | Unmapped | Pending |
-| SRC-02 | Unmapped | Pending |
-| SRC-03 | Unmapped | Pending |
-| SRC-04 | Unmapped | Pending |
-| WIKI-01 | Unmapped | Pending |
-| WIKI-02 | Unmapped | Pending |
-| WIKI-03 | Unmapped | Pending |
-| WIKI-04 | Unmapped | Pending |
-| IDX-01 | Unmapped | Pending |
-| IDX-02 | Unmapped | Pending |
-| IDX-03 | Unmapped | Pending |
-| IDX-04 | Unmapped | Pending |
-| HLT-01 | Unmapped | Pending |
-| HLT-02 | Unmapped | Pending |
-| HLT-03 | Unmapped | Pending |
-| OUT-01 | Unmapped | Pending |
-| OUT-02 | Unmapped | Pending |
-| OUT-03 | Unmapped | Pending |
+| SCF-01 | Phase 1 | Pending |
+| SCF-02 | Phase 1 | Pending |
+| SCF-03 | Phase 1 | Pending |
+| SRC-01 | Phase 1 | Pending |
+| SRC-02 | Phase 2 | Pending |
+| SRC-03 | Phase 2 | Pending |
+| SRC-04 | Phase 1 | Pending |
+| WIKI-01 | Phase 2 | Pending |
+| WIKI-02 | Phase 2 | Pending |
+| WIKI-03 | Phase 2 | Pending |
+| WIKI-04 | Phase 3 | Pending |
+| IDX-01 | Phase 1 | Pending |
+| IDX-02 | Phase 3 | Pending |
+| IDX-03 | Phase 3 | Pending |
+| IDX-04 | Phase 3 | Pending |
+| HLT-01 | Phase 4 | Pending |
+| HLT-02 | Phase 4 | Pending |
+| HLT-03 | Phase 4 | Pending |
+| OUT-01 | Phase 5 | Pending |
+| OUT-02 | Phase 5 | Pending |
+| OUT-03 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 21 total
-- Mapped to phases: 0
-- Unmapped: 21
+- Mapped to phases: 21
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-05-17*
-*Last updated: 2026-05-17 after initial definition*
+*Last updated: 2026-05-17 after roadmap creation*
