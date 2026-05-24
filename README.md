@@ -33,23 +33,24 @@ Wero uses a small FPF-inspired model:
 
 ## Repository Shape
 
-The planned knowledge workspace has six durable areas:
+The knowledge workspace has these durable areas:
 
-- a raw evidence area for converted sources and manual notes,
-- a source-summary area for one compact summary per processed source,
-- a compiled wiki area for modernist cooking knowledge,
-- an index area for navigation, backlinks, open questions, and future-agent orientation,
-- an output area for research answers, comparisons, briefs, and recipe-development notes,
-- a health area for audit reports and improvement suggestions.
+- `knowledge/raw/inbox/` for converted markdown sources and manual notes waiting to be processed.
+- `knowledge/sources/` for one compact source summary per processed raw source.
+- `knowledge/wiki/` for compiled modernist cooking knowledge.
+- `knowledge/wiki/concepts/`, `knowledge/wiki/techniques/`, `knowledge/wiki/ingredients/`, `knowledge/wiki/equipment/`, `knowledge/wiki/recipes/`, and `knowledge/wiki/safety/` for the first article taxonomy.
+- `knowledge/indexes/README.md` as the first navigation entry point for future sessions.
+- `knowledge/outputs/` for research answers, comparisons, briefs, and recipe-development notes.
+- `knowledge/health/reports/` for audit reports and improvement suggestions.
 
-The current repo includes GSD planning artifacts and an agent contract. The concrete folder scaffold is planned in Phase 1.
+The repo also includes GSD planning artifacts and an agent contract.
 
 ## How To Use
 
 For a fresh source:
 
 1. Convert the source to markdown yourself.
-2. Put it in the raw source inbox once Phase 1 has created the knowledge structure.
+2. Put it in `knowledge/raw/inbox/`.
 3. Ask the agent to process the inbox.
 4. The agent should create or update:
    - a source inventory entry,
@@ -75,8 +76,8 @@ For maintenance:
 The agent should follow these project rules:
 
 - Do not rewrite raw sources during compile passes unless explicitly asked.
-- Write compiled knowledge into the wiki layer.
-- Keep source summaries separate from wiki articles.
+- Write compiled knowledge into `knowledge/wiki/`.
+- Keep source summaries in `knowledge/sources/`, separate from wiki articles.
 - Cite source summaries or raw paths for important culinary claims where practical.
 - Treat safety-sensitive cooking guidance with extra caution.
 - Update indexes after creating, renaming, or materially changing articles.
@@ -98,24 +99,25 @@ Planning details live in the GSD artifacts.
 
 ## Current Status
 
-Project planning is complete. The repo currently has:
+Project planning is complete and Phase 1 has created the knowledge scaffold. The repo currently has:
 
 - project context,
 - workflow configuration,
 - research notes,
 - v1 requirements,
 - a five-phase roadmap,
-- an agent operating contract.
+- an agent operating contract,
+- the initial `knowledge/` folder structure.
 
-The next build step is Phase 1: create the knowledge base scaffold.
+The next build step is Phase 2: define source summaries and wiki templates.
 
 ## Working With GSD
 
 Recommended next commands:
 
 ```text
-$gsd-discuss-phase 1
-$gsd-plan-phase 1
+$gsd-discuss-phase 2
+$gsd-plan-phase 2
 ```
 
 Use discussion when the phase needs more context. Use direct planning when the desired implementation is already clear.

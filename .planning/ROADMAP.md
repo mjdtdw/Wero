@@ -17,7 +17,7 @@
 
 ## Phase Details
 
-### Phase 1: Knowledge Base Scaffold
+### Phase 1: Knowledge Base Scaffold (Complete - 2026-05-24)
 
 **Goal:** Establish a clean local structure and operating contract so future agent sessions know how to work safely in the knowledge base.
 
@@ -104,12 +104,12 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCF-01 | Phase 1 | Pending |
-| SCF-02 | Phase 1 | Pending |
-| SCF-03 | Phase 1 | Pending |
-| SRC-01 | Phase 1 | Pending |
-| SRC-04 | Phase 1 | Pending |
-| IDX-01 | Phase 1 | Pending |
+| SCF-01 | Phase 1 | Complete |
+| SCF-02 | Phase 1 | Complete |
+| SCF-03 | Phase 1 | Complete |
+| SRC-01 | Phase 1 | Complete |
+| SRC-04 | Phase 1 | Complete |
+| IDX-01 | Phase 1 | Complete |
 | SRC-02 | Phase 2 | Pending |
 | SRC-03 | Phase 2 | Pending |
 | WIKI-01 | Phase 2 | Pending |

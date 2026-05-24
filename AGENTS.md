@@ -107,10 +107,10 @@ Do not make direct repo edits outside a GSD workflow unless the user explicitly 
 
 ### Folder Roles
 
-- `knowledge/raw/` is the evidence layer. Do not rewrite raw sources during compile or cleanup passes unless the user explicitly asks.
+- `knowledge/raw/` is the evidence layer. `knowledge/raw/inbox/` is the default landing zone for converted markdown sources and manual notes. Do not rewrite raw sources during compile or cleanup passes unless the user explicitly asks.
 - `knowledge/sources/` contains one source-summary markdown file per processed raw source.
 - `knowledge/wiki/` contains compiled knowledge articles. These are agent-maintained and may be edited directly.
-- `knowledge/indexes/` contains navigation files that future agent sessions should read first.
+- `knowledge/indexes/` contains navigation files that future agent sessions should read first. Start with `knowledge/indexes/README.md` before assuming detailed source, article, backlink, or open-question indexes exist.
 - `knowledge/outputs/` contains exploratory answers, comparisons, briefs, and recipe-development notes.
 - `knowledge/health/` contains audit reports and improvement suggestions.
 
@@ -124,6 +124,8 @@ When compiling raw sources into wiki content:
 4. Prefer focused articles over giant catch-all pages.
 5. Update relevant indexes after creating, renaming, or materially changing articles.
 6. Track open questions instead of inventing certainty.
+
+Do not rewrite raw sources in `knowledge/raw/` or `knowledge/raw/inbox/` during compile, cleanup, indexing, or health passes unless the user explicitly asks for that raw file to be edited.
 
 ### Evidence Rules
 
