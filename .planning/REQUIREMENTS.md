@@ -7,16 +7,16 @@
 
 ### Scaffold
 
-- [ ] **SCF-01**: User has a `knowledge/` folder structure with separate areas for raw sources, source summaries, compiled wiki articles, indexes, outputs, and health reports.
-- [ ] **SCF-02**: User has an `AGENTS.md` operating contract that explains how the agent ingests sources, compiles wiki articles, preserves evidence, updates indexes, and runs health checks.
-- [ ] **SCF-03**: User has a root README that explains the knowledge base purpose and the basic workflow for adding converted markdown sources.
+- [x] **SCF-01**: User has a `knowledge/` folder structure with separate areas for raw sources, source summaries, compiled wiki articles, indexes, outputs, and health reports.
+- [x] **SCF-02**: User has an `AGENTS.md` operating contract that explains how the agent ingests sources, compiles wiki articles, preserves evidence, updates indexes, and runs health checks.
+- [x] **SCF-03**: User has a root README that explains the knowledge base purpose and the basic workflow for adding converted markdown sources.
 
 ### Sources
 
-- [ ] **SRC-01**: User can place converted markdown sources and manual notes into a raw source inbox without needing any conversion automation.
+- [x] **SRC-01**: User can place converted markdown sources and manual notes into a raw source inbox without needing any conversion automation.
 - [ ] **SRC-02**: Agent can maintain a source inventory that records each source path, title, type, processing status, related topics, and summary path.
 - [ ] **SRC-03**: Agent can write a concise source summary for each processed raw source, including key ideas, modernist cooking concepts, useful facts, and source path.
-- [ ] **SRC-04**: Agent can distinguish raw evidence files from compiled wiki files and avoid rewriting raw sources during compile passes.
+- [x] **SRC-04**: Agent can distinguish raw evidence files from compiled wiki files and avoid rewriting raw sources during compile passes.
 
 ### Wiki
 
@@ -27,7 +27,7 @@
 
 ### Indexes
 
-- [ ] **IDX-01**: Agent can maintain an index entry point that tells future sessions what files to read first.
+- [x] **IDX-01**: Agent can maintain an index entry point that tells future sessions what files to read first.
 - [ ] **IDX-02**: Agent can maintain source, concept, article, and backlink indexes as markdown files.
 - [ ] **IDX-03**: Agent can update indexes after compile passes so newly created or changed articles are discoverable.
 - [ ] **IDX-04**: Agent can maintain an open-questions index for gaps, uncertainties, and candidate future research.
@@ -85,18 +85,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCF-01 | Phase 1 | Pending |
-| SCF-02 | Phase 1 | Pending |
-| SCF-03 | Phase 1 | Pending |
-| SRC-01 | Phase 1 | Pending |
+| SCF-01 | Phase 1 | Complete |
+| SCF-02 | Phase 1 | Complete |
+| SCF-03 | Phase 1 | Complete |
+| SRC-01 | Phase 1 | Complete |
 | SRC-02 | Phase 2 | Pending |
 | SRC-03 | Phase 2 | Pending |
-| SRC-04 | Phase 1 | Pending |
+| SRC-04 | Phase 1 | Complete |
 | WIKI-01 | Phase 2 | Pending |
 | WIKI-02 | Phase 2 | Pending |
 | WIKI-03 | Phase 2 | Pending |
 | WIKI-04 | Phase 3 | Pending |
-| IDX-01 | Phase 1 | Pending |
+| IDX-01 | Phase 1 | Complete |
 | IDX-02 | Phase 3 | Pending |
 | IDX-03 | Phase 3 | Pending |
 | IDX-04 | Phase 3 | Pending |
